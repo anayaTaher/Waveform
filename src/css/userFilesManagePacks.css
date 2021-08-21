@@ -1,0 +1,40 @@
+.packSelectorCellIndex2{
+    width: 84%;
+    font-family: "Century Gothic", serif;
+    font-size: 11pt;
+    color: #e0e0e0;
+}
+
+.packSelectorButtons{
+    display: flex;
+    justify-content: center;
+}
+
+.packSelectorButtons .button {
+    height: 20px;
+    width: 40px;
+    background-color: #479eca;
+    border-radius: 5px;
+    color: #e0e0e0;
+    font-size: 10pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#deletePack{
+    background-color: #e68282;
+}
+
+#editPack{
+    /*background-color: #edb76f;*/
+    background-color: #479eca;
+}
+
+#savePackEdits{
+    background-color: #479eca;
+}
+
+#cancelPackEdits{
+    background-color: #e68282;
+}

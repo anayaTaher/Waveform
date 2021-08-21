@@ -1,0 +1,281 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #40485e;
+}
+
+div.background {
+    top: 0;
+    left: 0;
+    height: 110px;
+    width: 100%;
+    background-color: #3b4152;
+    display: flex;
+    align-items: center;
+}
+span.logoName{
+    margin-left: 20px;
+    color: #e0e0e0;
+    font-size: 30pt;
+    font-family: "Century Gothic", serif;
+}
+img.logoImg{
+    padding-left: 50px;
+}
+.background ul {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 700px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.background ul li {
+    display: block;
+    flex: 0 1 auto;
+    color: #e0e0e0;
+}
+.background ul li a{
+    color: #e0e0e0;
+    font-size: 13pt;
+    font-family: "Century Gothic", serif;
+    text-decoration: none;
+}
+
+.background ul li a:hover{
+    color: #479eca;
+}
+
+
+.background ul li i {
+    margin-right: 5px;
+    font-size: 11pt;
+}
+.menuDivLeft {
+    position: absolute;
+    background-color: #3b4152;
+    right: 0;
+    padding-right: 50px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.menuDivLeft ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: inherit;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #FFF;
+}
+
+.menuDivLeft ul li {
+    margin-left: 20px;
+    display: block;
+    flex: 0 1 auto;
+}
+
+.menuDivLeft ul li button {
+    border-radius: 6px;
+    line-height: 1;
+    font-size: 15px;
+    font-family: "Century Gothic", serif;
+    width: 150px;
+    height: 50px;
+    border-color: #e0e0e0;
+    border-style: solid;
+}
+
+#login{
+    background-color: transparent;
+    color: #e0e0e0;
+}
+
+#signup{
+    background-color: #e0e0e0;
+    color: #3b4152;
+}
+
+#mainTable{
+    width: 100%;
+    background-color: #40485e;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.mainContent{
+    width: 100%;
+    height: 700px;
+    background-color: #40485e;
+}
+
+.mainContent img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 90%;
+    max-width: 90%;
+}
+
+#welcome{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+    border-bottom: #479eca solid 5px;
+    font-family: "Century Gothic", serif;
+    font-size: 40pt;
+    color: #e0e0e0;
+}
+
+#welcomeMsg{
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    top: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#welcomeMsg ul{
+    font-family: "Century Gothic", serif;
+    font-size: 11pt;
+    color: #e0e0e0;
+}
+
+#beginUsing{
+    height: 50px;
+    width: 300px;
+    background-color: #479eca;
+    color: #e0e0e0;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #479eca;
+    font-family: "Century Gothic", serif;
+    font-size: 15pt;
+}
+
+#beginUsingGuest{
+    height: 50px;
+    width: 300px;
+    background-color: #e0e0e0;
+    color: #40485e;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #e0e0e0;
+    font-family: "Century Gothic", serif;
+    font-size: 15pt;
+}
+
+.mainButtonList{
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainButtonList li {
+    margin-right: 20px;
+    display: block;
+    flex: 0 1 auto;
+}
+
+.textField{
+    height: 30px;
+    width: 300px;
+    font-family: "Century Gothic", serif;
+    font-size: 10pt;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #e0e0e0;
+}
+.TextFieldDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: inherit;
+    height: 30px;
+}
+
+.TextFieldLabel {
+    font-size: 11pt;
+    font-family: "Century Gothic", serif;
+    color: #e0e0e0;
+    margin-right: 20px;
+}
+
+#topProfilePicture{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: #e0e0e0 1px solid;
+}
+
+#topUserName{
+    font-family: "Century Gothic", serif;
+    font-size: 12pt;
+    color: #e0e0e0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+    height: inherit;
+    width: inherit;
+    -webkit-animation-name: animateTop;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animateTop;
+    animation-duration: 0.5s
+}
+
+@-webkit-keyframes animateTop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animateTop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}

@@ -1,0 +1,128 @@
+.iconContainer i {
+    font-size: 11pt;
+    color: #e0e0e0;
+}
+
+.container{
+    width: 80%;
+    height: 60px;
+}
+
+.wavesurfer {
+    width: 35%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /*background: #e0e0e0;*/
+}
+
+.trackDetails{
+    align-self: flex-start;
+}
+
+.trackDetails span{
+    font-size: 10pt;
+    font-family: "Century Gothic", serif;
+    color: #e0e0e0;
+}
+
+.trackDetails a{
+    text-decoration: none;
+    color: #acacac;
+}
+
+.trackDetails a:hover{
+    color: #479eca;
+}
+
+.soundBox{
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 20px);
+    border: #e0e0e0 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    /*background: black;*/
+}
+
+.soundBox > * {
+    display: block;
+    margin-left: 10px;
+}
+
+.soundBox > *:first-child {
+    margin-left: 0;
+}
+
+.iconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border: #e0e0e0 2px solid;
+    border-radius: 50%;
+}
+
+.iconContainer:hover{
+    background: #479eca;
+    cursor: pointer;
+}
+
+.soundBox span{
+    font-family: "Century Gothic", serif;
+    font-size: 12pt;
+    color: #e0e0e0;
+}
+
+.userInfo{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    /*background: #479eca;*/
+}
+
+.userInfo span{
+    margin-left: 5px;
+    font-family: "Century Gothic", serif;
+    font-size: 11pt;
+    color: #e0e0e0;
+}
+
+.userInfo span a{
+    text-decoration: none;
+    color: #e0e0e0;
+}
+
+.userInfo span a a:hover{
+    color: #479eca;
+}
+
+.userInfo img{
+    height: 20px;
+    width: 20px;
+    border: #e0e0e0 1px solid;
+    border-radius: 50%;
+}
+
+.downloadButton{
+    height: 20px;
+    width: 50px;
+    background-color: #479eca;
+    color: #e0e0e0;
+    font-size: 8pt;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upperSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,148 @@
+#mainProfilePicture {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: #e0e0e0 2px solid;
+}
+
+#mainProfileName {
+    margin-top: 20px;
+    color: #e0e0e0;
+    font-family: "Century Gothic", serif;
+    font-size: 26pt;
+}
+
+
+dl {
+    align-self: stretch;
+    font-family: "Century Gothic", serif;
+    color: #e0e0e0;
+    font-size: 22pt;
+    margin-left: 20px;
+}
+
+dl dt {
+    font-family: "Century Gothic", serif;
+    color: #e0e0e0;
+    font-size: 17pt;
+}
+
+dl dt span{
+    margin-left: 5px;
+}
+
+dl dd {
+    font-family: "Century Gothic", serif;
+    color: #e0e0e0;
+    font-size: 12pt;
+    margin-top: 10px;
+}
+
+dl dd span {
+    margin-left: 5px;
+}
+
+#divToButton {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#about, #release {
+    font-size: 16pt;
+    font-family: "Century Gothic", serif;
+    color: #e0e0e0;
+    background-color: transparent;
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+}
+#about {
+    margin-right: 30px;
+}
+
+#about:hover, #release:hover {
+    background-color: #5FACDD;
+}
+
+#aboutDiv, #releaseDiv{
+    position: relative;
+    padding-top: 30px;
+    width: 95%;
+    height: calc(100% - 100px);
+    left: 50%;
+    transform: translateX(-50%);
+    color: #e0e0e0;
+    font-family: "Century Gothic", serif;
+    font-size: 16pt;
+    overflow: auto;
+}
+
+#releaseDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#releaseDiv > *{
+    margin-top: 20px;
+}
+
+#leftContainer{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 90%;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-right: #8c91a2 2px solid;
+}
+
+.leftMain{
+    width: 20%;
+    height: calc(100vh - 110px);
+    position: fixed;
+    left: 0;
+    top: 110px;
+    background-color: #4a5471;
+}
+
+#mainTable{
+    height: calc(100vh - 110px);
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #e68282;
+}
+
+#mainTable tr{
+    height: 100%;
+    width: 100%;
+}
+
+#firstColumn{
+    height: 100%;
+    width: 20%;
+    background-color: #4a5471;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #479eca;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e0e0e0;
+}

@@ -1,0 +1,107 @@
+.mainContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 50%;
+    margin-top: 30px;
+    transform: translateX(-50%);
+    height: 80%;
+    width: 30%;
+    background-color: #4a5471;
+    border-radius: 20px;
+}
+
+.title{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: "Century Gothic", serif;
+    font-size: 16pt;
+    color: #e0e0e0;
+}
+
+.mainContainerTable{
+    display: table;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.mainContainerTableRow{
+    display: table-row;
+    width: 100%;
+    height: 30px;
+}
+
+.mainContainerTableCell{
+    display: table-cell;
+    padding-top: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainerTableCell > input[type="text"], .mainContainerTableCell > input[type="password"]{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: #e0e0e0;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 10pt;
+    font-family: "Century Gothic", serif;
+}
+
+.mainContainerTableCell > label{
+    font-family: "Century Gothic", serif;
+    font-size: 11pt;
+    color: #e0e0e0;
+}
+
+.index1{
+    width: 30%;
+}
+
+.index2{
+    width: 70%;
+}
+
+#message{
+    resize: none;
+    font-family: "Century Gothic", serif;
+    font-size: 10pt;
+    background-color: #e0e0e0;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+
+}
+
+#sendMessage, #submit{
+    border: none;
+    background-color: #479eca;
+    width: 100%;
+    height: 30px;
+    color: #e0e0e0;
+    font-family: "Century Gothic", serif;
+    font-size: 10pt;
+    border-radius: 5px;
+}
+
+#resetPasswordButton {
+    border: none;
+    background-color: #479eca;
+    width: 100%;
+    height: 30px;
+    color: #e0e0e0;
+    font-family: "Century Gothic", serif;
+    font-size: 10pt;
+    border-radius: 5px;
+}
+
+.console{
+    margin-top: 30px;
+    font-family: "Century Gothic", serif;
+    font-size: 9pt;
+    color: #e68282;
+}

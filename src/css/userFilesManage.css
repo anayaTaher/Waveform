@@ -1,0 +1,163 @@
+.trackSelector{
+    width: 90%;
+    height: 75%;
+    background-color: #393e50;
+    border-radius: 20px;
+    align-self: center;
+    overflow: auto;
+}
+
+.manageTracksButtonsContainer{
+    align-self: flex-end;
+}
+
+.manageTracksButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.manageTracksButtons > input[type="submit"]{
+    margin-top: 20px;
+    margin-right: 40px;
+    width: 160px;
+    height: 45px;
+    border: none;
+    font-family: "Century Gothic", serif;
+    font-size: 12pt;
+    color: #e0e0e0;
+}
+
+#deleteTrack{
+    background-color: #e68282;
+}
+
+#editTrack{
+    /*background-color: #edb76f;*/
+    background-color: #479eca;
+}
+
+.trackSelectorCell{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 40px);
+    height: 30px;
+    margin-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.trackSelectorCellIndex1{
+    width: 5%;
+    font-family: "Century Gothic", serif;
+    font-size: 11pt;
+    color: #e0e0e0;
+}
+
+.trackSelectorCellIndex5{
+    width: 11%;
+    font-family: "Century Gothic", serif;
+    font-size: 11pt;
+    color: #e0e0e0;
+}
+
+.trackSelectorCellIndex2, .trackSelectorCellIndex3{
+    width: 37%;
+    font-family: "Century Gothic", serif;
+    font-size: 11pt;
+    color: #e0e0e0;
+}
+
+.trackSelectorCellIndex4{
+    width: 10%;
+    font-family: "Century Gothic", serif;
+    font-size: 11pt;
+    color: #e0e0e0;
+}
+
+.trackSelectorCellIndex3{
+    font-family: "Century Gothic", serif;
+    font-size: 11pt;
+    color: #e0e0e0;
+}
+
+.trackSelectorButtons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trackSelectorButtons .button {
+    height: 20px;
+    width: 40px;
+    background-color: #479eca;
+    border-radius: 5px;
+    color: #e0e0e0;
+    font-size: 10pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tSH {
+    display: flex;
+    justify-content: center;
+}
+
+.tSC{
+    background-color: #353949;
+    margin-top: 0;
+    height: 50px;
+}
+
+.wavesurferPreviewer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.manageRightMenuSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    align-self: center;
+}
+
+.trackEditButtons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 150px;
+}
+
+.trackEditButtons > input[type="submit"]{
+    height: 45px;
+    width: 200px;
+    color: #e0e0e0;
+    font-family: "Century Gothic", serif;
+    font-size: 12pt;
+    border: none;
+}
+
+#saveTrackEdits{
+    background-color: #479eca;
+}
+
+#cancelTrackEdits{
+    background-color: #e68282;
+}
+
+.trackEditConsole{
+    color: #82e69e;
+    font-family: "Century Gothic", serif;
+    font-size: 11pt;
+    text-align: center;
+}

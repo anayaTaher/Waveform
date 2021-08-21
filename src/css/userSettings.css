@@ -1,0 +1,198 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #479eca;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e0e0e0;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: calc(100vh - 110px);
+}
+
+form{
+    padding: 0;
+    margin: 0;
+}
+
+table td{
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.userSettings{
+    width: 30%;
+}
+
+.userAbout{
+    width: 50%;
+}
+
+.userPreview{
+    width: 20%;
+}
+
+.userSettingsOuter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    height: 100%;
+    width: 100%;
+    border-right: #8c91a2 solid 2px;
+}
+
+.userSettingsInner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding-top: 20px;
+}
+
+.settingsMainCategory{
+    font-family: "Century Gothic", serif;
+    font-size: 24pt;
+    color: #e0e0e0;
+    align-self: stretch;
+    margin-left: 20px;
+}
+
+.settingsMainCategory span{
+    margin-right: 10px;
+}
+
+.settingsSmallCategory{
+    font-family: "Century Gothic", serif;
+    font-size: 18pt;
+    color: #e0e0e0;
+    align-self: stretch;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="file"]{
+    margin-top: 15px;
+    color: #e0e0e0;
+    background-color: #4a5471;
+    font-family: "Century Gothic", serif;
+    border-radius: 5px;
+    width: 80%;
+}
+
+#deleteProfilePictureLabel{
+    color: #e68282;
+    font-family: "Century Gothic", serif;
+    font-size: 10pt;
+}
+
+.deleteProfilePictureDiv{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    align-self: stretch;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.settingsTextFields > div{
+    margin-top: 10px;
+}
+
+.aboutOuter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    border-right: #8c91a2 solid 2px;
+}
+
+#aboutTextArea{
+    resize: none;
+    font-family: "Century Gothic", serif;
+    font-size: 12pt;
+    color: #e0e0e0;
+    background-color: #4a5471;
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.userPreviewOuter{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.previewPicture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.previewButtons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#previewPictureImage{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: #e0e0e0 solid 3px;
+}
+
+#previewPictureName{
+    font-family: "Century Gothic", serif;
+    font-size: 24pt;
+    color: #e0e0e0;
+    margin-top: 20px;
+}
+
+#previewText{
+    font-family: "Century Gothic", serif;
+    font-size: 10pt;
+    color: #e0e0e0;
+    text-align: center;
+    margin: 20px;
+}
+
+#settingsSaveChanges, #settingsRollBack{
+    width: 200px;
+    height: 50px;
+    color: #e0e0e0;
+    font-family: "Century Gothic", serif;
+    font-size: 12pt;
+    border: none;
+    margin-top: 10px;
+}
+
+#settingsRollBack{
+    background-color: #e68282;
+}
+
+#settingsSaveChanges{
+    background-color: #479eca;
+}
+
+#settingsConsole{
+    font-family: "Century Gothic", serif;
+    font-size: 10pt;
+    color: #e68282;
+    text-align: center;
+    margin: 20px;
+}
